@@ -1,0 +1,9 @@
+{
+  "state": "The ticket contains a customer email address and a password reset request. It contains no password or authentication token.",
+  "questions": {
+    "q": {
+      "type": "noul",
+      "instructions": "Does the ticket contain a plaintext password or authentication token?"
+    }
+  }
+}

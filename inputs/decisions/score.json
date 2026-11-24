@@ -1,0 +1,16 @@
+{
+  "state": "The agent acknowledged a service outage, gave a status update, and provided a restoration estimate.",
+  "questions": {
+    "q": {
+      "type": "score",
+      "instructions": "Rate the quality of the support response from 1 to 5.",
+      "criteria": {
+        "1": "Poor, no useful information.",
+        "2": "Limited acknowledgement.",
+        "3": "Adequate but missing next steps.",
+        "4": "Clear update with useful next steps.",
+        "5": "Clear, accurate, complete and actionable update."
+      }
+    }
+  }
+}

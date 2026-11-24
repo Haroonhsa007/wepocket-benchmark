@@ -1,0 +1,14 @@
+{
+  "state": "A customer received the wrong product and requests a replacement.",
+  "questions": {
+    "q": {
+      "type": "choice",
+      "instructions": "Select the best response for the customer.",
+      "criteria": {
+        "replace": "Apologize and arrange shipment of the correct replacement.",
+        "refund": "Offer a refund.",
+        "ignore": "Ignore the customer request."
+      }
+    }
+  }
+}
